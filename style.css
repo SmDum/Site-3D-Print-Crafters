@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+body, html, #container {
+	margin: 0 auto;
+	font: 16px "Lato", sans-serif;
+	color: #777;
+	height: 100%;
+    scroll-behavior: smooth;
+}
+
+#topo {
+    background-color: #ffffff; 
+    color: #035AA6;
+    padding: 0.5% 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 10px solid #035AA6;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    text-indent: -3000px;
+}
+
+
+#logo {
+    margin-left: 5%; 
+    margin-top: 5px;
+}
+
+
+#navegacao {
+    flex-grow: 1;
+    text-align: center; 
+    margin-top: 5px;
+    margin-right: 10%;
+    
+}
+
+#navegacao ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+}
+
+#navegacao ul li {
+    display: inline-block;
+    margin: 1% 2% 1% 0;
+}
+
+
+#navegacao ul li a {
+    text-decoration: none;
+    color: #035AA6;
+    font-size: 1.1em; 
+    padding: 10px;
+}
+
+#navegacao ul li a:hover {
+    text-decoration: none;
+    background-color: #035AA6; ;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+}
+
+.conteudo {
+    padding: 50px 20px; 
+    color: #000;
+    background-color: white;
+    text-align: justify;
+    border-top: 3px solid #035AA6;
+    border-bottom: 3px solid #035AA6;
+}
+
+p{
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 50%;
+}
+
+#caixa1, #caixa2, #caixa3, #caixa4{
+    position: relative;
+    height: 100%;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+#caixa1 {
+    background-image: url(imagens/Impressora.jpg);
+}
+
+#caixa2 {
+    background-image: url(imagens/logo3d.jpg);
+}
+
+#caixa3 {
+    background-image: url(imagens/Pecas.jpg);
+}
+
+#caixa4 {
+    background-image: url(imagens/instagram.png);
+}
+
+.conteudo a{
+    text-decoration: none;
+    color: #035AA6;
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background-color: #023b85;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+
+.conteudo ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    margin: auto;
+    white-space: nowrap;
+
+}
+
+.conteudo ul li {
+    display: inline-block;
+    margin: 0 3%;
+}
+
+.conteudo ul li a {
+    color: #023b85;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.conteudo ul li a:hover {
+    text-decoration: underline;
+}
+
+.ultimo{
+    border-bottom: none;
+}
